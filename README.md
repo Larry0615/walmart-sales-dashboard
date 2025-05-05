@@ -8,6 +8,7 @@ The objective is to uncover sales trends, regional performance, and category-lev
 ---
 
 ## 🔍 Business Questions
+- A
 
 - 🗓️ What months or seasons see the highest sales?
 - 🛍️ Which store types and departments generate the most revenue?
