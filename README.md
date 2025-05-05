@@ -17,30 +17,6 @@ The objective is to uncover sales trends, regional performance, and category-lev
 
 ---
 
-## 🛠️ Tools & Technologies
-
-- **Excel / Google Sheets** – for data exploration and cleaning
-- **Tableau** – for visual dashboard creation
-- **Python (optional)** – for additional cleaning or preprocessing
-- **Git & GitHub** – version control and collaboration
-
----
-
-## 📁 Folder Structure
-```
-walmart-sales-dashboard/
-├── data/
-│ ├── raw/ ← Original dataset from Kaggle
-│ └── processed/ ← Cleaned/merged data (optional)
-├── excel_cleaning/ ← Excel-based prep or pivot logic
-├── notebooks/ ← Optional Python preprocessing
-├── dashboard/ ← Tableau workbook (.twbx) and exports
-├── visuals/ ← Screenshots of dashboard or key charts
-└── README.md
-```
-
----
-
 ## 📦 Dataset Source
 
 **Kaggle**: [Walmart Recruiting - Store Sales Forecasting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting)
@@ -48,6 +24,15 @@ walmart-sales-dashboard/
 - `train.csv`: Weekly sales by store and department  
 - `features.csv`: Store-level features including markdowns and holidays  
 - `stores.csv`: Store type and size  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Excel / Google Sheets** – for data exploration and cleaning
+- **Tableau** – for visual dashboard creation
+- **Python (optional)** – for additional cleaning or preprocessing
+- **Git & GitHub** – version control and collaboration
 
 ---
 
@@ -76,7 +61,18 @@ walmart-sales-dashboard/
 - Expand high-performing store types to similar regions
 
 ---
-
+## 📁 Repository Structure
+```
+walmart-sales-dashboard/
+├── data/
+│ ├── raw/ ← Original dataset from Kaggle
+│ └── processed/ ← Cleaned/merged data (optional)
+├── excel_cleaning/ ← Excel-based prep or pivot logic
+├── notebooks/ ← Optional Python preprocessing
+├── dashboard/ ← Tableau workbook (.twbx) and exports
+├── visuals/ ← Screenshots of dashboard or key charts
+└── README.md
+```
 ## 🚀 Future Enhancements
 
 - Forecasting weekly sales using time series models  
