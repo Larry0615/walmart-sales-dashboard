@@ -1,2 +1,2 @@
 # walmart-sales-dashboard
-Sales analysis and dashboard fro Walmart stores using real-world data
+Sales analysis and dashboard from Walmart stores using real-world data
