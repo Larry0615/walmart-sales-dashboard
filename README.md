@@ -1,89 +1,108 @@
-# Walmart Sales Dashboard
+# 🛒 Walmart Sales Analysis Dashboard
 
-## 📌 Project Overview
-
-This project analyzes real-world sales data from Walmart stores across the United States.  
-The objective is to uncover sales trends, regional performance, and category-level insights — and present them using an interactive Tableau dashboard.
+This project explores and visualizes Walmart’s historical weekly sales data across 45 stores and multiple departments using Python and Tableau Public. It aims to identify sales trends, regional/store performance, holiday impacts, and top-performing departments.
 
 ---
 
 ## 🔍 Business Questions
 
-- What months or seasons see the highest sales?  
-- Which store types and departments generate the most revenue?  
-- Which regions or locations perform best?  
-- How do holidays and markdowns affect weekly sales?  
-- Can we visualize KPIs for decision-makers?
+- 📆 What months or seasons generate the most sales?
+- 🏪 Which store types perform best?
+- 📦 What are the top-performing departments?
+- 🎉 Do holiday weeks drive more revenue?
+- 📊 Can we present these findings through an interactive dashboard?
 
 ---
 
-## 📦 Dataset Source
+## 📁 Dataset
 
-**Kaggle**: [Walmart Recruiting - Store Sales Forecasting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting)
-
-Files used:
-- `train.csv`: Weekly sales by store and department  
-- `features.csv`: Store-level features including markdowns and holidays  
-- `stores.csv`: Store type and size  
+- Source: [Kaggle – Walmart Store Sales Forecasting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data)
+- Files used:
+  - `train.csv`, `features.csv`, `stores.csv`
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🧼 Data Cleaning (Excel)
 
-- Excel / Google Sheets – for data exploration and cleaning  
-- Tableau – for visual dashboard creation  
-- Python (optional) – for additional cleaning or preprocessing  
-- Git & GitHub – version control and collaboration
+Performed in Excel before analysis:
+- Joined all datasets using `Store` and `Date` keys
+- Created new fields: `StoreDateKey`, `Type`, `Size`, `IsHoliday_feat`
+- Checked holiday column consistency
+- Created pivot tables for initial exploration
 
 ---
 
-## 📁 Repository Structure
+## 🐍 Python Analysis (Jupyter Notebook)
+
+Performed group-based analysis and visualizations using:
+
+- `pandas`, `matplotlib`
+- Monthly sales trend
+- Holiday vs. non-holiday revenue
+- Store type comparison
+- Top 10 departments by revenue
+
+**Notebook location**: `notebooks/walmart_sales_analysis.ipynb`
+
+---
+
+## 📊 Tableau Dashboard (Interactive)
+
+Built a professional dashboard showing:
+
+- Monthly revenue trends 📈
+- Top departments 📦
+- Store type performance 🏪
+- Holiday vs. non-holiday impact 🎉
+
+**🔗 View Live Dashboard**:  
+[https://public.tableau.com/views/walmart_dashboard/Dashboard1](https://public.tableau.com/views/walmart_dashboard/Dashboard1)
+
+---
+
+## 📂 Repository Structure
 ```
 walmart-sales-dashboard/
+│
 ├── data/
-│ ├── raw/ ← Original dataset from Kaggle
-│ └── processed/ ← Cleaned/merged data (optional)
-├── excel_cleaning/ ← Excel-based prep or pivot logic
-├── notebooks/ ← Optional Python preprocessing
-├── dashboard/ ← Tableau workbook (.twbx) and exports
-├── visuals/ ← Screenshots of dashboard or key charts
+│ ├── raw/ # Original Kaggle files
+│ └── processed/ # Cleaned Excel workbook
+│
+├── excel_cleaning/ # Excel sheets and pivots
+│
+├── notebooks/
+│ └── walmart_sales_analysis.ipynb
+│
+├── visuals/ # Python-generated charts
+│
+├── dashboard/
+│ └── walmart_dashboard.twbx
+│
 └── README.md
 ```
+---
+
+## 📈 Key Findings
+
+- 🏆 July had the highest sales across all stores
+- 📉 January had the weakest performance
+- 🎯 Store Type A generated the highest total revenue
+- 🧪 Holiday weeks averaged **7% more sales** than regular weeks
+- 🧱 Top 10 departments drove the majority of revenue
 
 ---
 
-## 📈 Key Findings (To Be Added)
+## 📢 Business Recommendations
 
-- Peak sales periods  
-- Top-performing store types  
-- Regional performance patterns  
-- Holiday impact analysis  
-
----
-
-## 📊 Dashboard Preview (To Be Added)
-
-- Sales trends over time  
-- Top departments by revenue  
-- Regional breakdown  
-- Interactive filters (store type, date range, department)
+- 📆 Focus campaigns around July, April, and December
+- 🛍️ Prioritize inventory for top departments
+- 🎯 Retarget customers during post-holiday periods
+- 🎉 Leverage holiday-specific marketing
 
 ---
 
-## 📢 Business Insights (To Be Added)
+## 🌐 Author
 
-- Recommend stocking strategies around holidays  
-- Increase markdown planning for specific departments  
-- Expand high-performing store types to similar regions
-
----
-
-## 🚀 Future Enhancements
-
-- Forecasting weekly sales using time series models  
-- Automating data refresh in Tableau  
-- Adding customer demographics (if available)
-
----
-
-📬 Connect or explore more: [github.com/Larry0615](https://github.com/Larry0615)
+**Oyenekan Larry**  
+📧 [LinkedIn](https://www.linkedin.com/in/oyenekan-olanrewaju-745651293)  
+📂 [GitHub](https://github.com/Larry0615)
