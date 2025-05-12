@@ -60,6 +60,24 @@ Built a professional dashboard showing:
 
 ---
 
+## 📈 Key Findings
+
+- 🏆 July had the highest sales across all stores
+- 📉 January had the weakest performance
+- 🎯 Store Type A generated the highest total revenue
+- 🧪 Holiday weeks averaged **7% more sales** than regular weeks
+- 🧱 Top 10 departments drove the majority of revenue
+
+---
+
+## 📢 Business Recommendations
+
+- 📆 Focus campaigns around July, April, and December
+- 🛍️ Prioritize inventory for top departments
+- 🎯 Retarget customers during post-holiday periods
+- 🎉 Leverage holiday-specific marketing
+
+---
 ## 📂 Repository Structure
 ```
 walmart-sales-dashboard/
@@ -81,26 +99,6 @@ walmart-sales-dashboard/
 └── README.md
 ```
 ---
-
-## 📈 Key Findings
-
-- 🏆 July had the highest sales across all stores
-- 📉 January had the weakest performance
-- 🎯 Store Type A generated the highest total revenue
-- 🧪 Holiday weeks averaged **7% more sales** than regular weeks
-- 🧱 Top 10 departments drove the majority of revenue
-
----
-
-## 📢 Business Recommendations
-
-- 📆 Focus campaigns around July, April, and December
-- 🛍️ Prioritize inventory for top departments
-- 🎯 Retarget customers during post-holiday periods
-- 🎉 Leverage holiday-specific marketing
-
----
-
 ## 🌐 Author
 
 **Oyenekan Larry**  
