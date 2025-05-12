@@ -84,9 +84,9 @@ walmart-sales-dashboard/
 │
 ├── data/
 │ ├── raw/ # Original Kaggle files
-│ └── processed/ # Cleaned Excel workbook
+│ └── processed/ # Cleaned and Merged Excel sheet
 │
-├── excel_cleaning/ # Excel sheets and pivots
+├── excel_cleaning/ # Excel sheets and pivots(Workbook)
 │
 ├── notebooks/
 │ └── walmart_sales_analysis.ipynb
