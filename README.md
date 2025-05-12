@@ -1,6 +1,6 @@
 # 🛒 Walmart Sales Analysis Dashboard
 
-This project explores and visualizes Walmart’s historical weekly sales data across 45 stores and multiple departments using Python and Tableau Public. It aims to identify sales trends, regional/store performance, holiday impacts, and top-performing departments.
+This project explores and visualizes Walmart’s historical weekly sales data across 45 stores and multiple departments in the USA using Python and Tableau Public. It aims to identify sales trends, regional/store performance, holiday impacts, and top-performing departments.
 
 ---
 
