@@ -1,20 +1,20 @@
-# 🛒 Walmart Sales Analysis Dashboard
+#  Walmart Sales Analysis Dashboard
 
 This project explores and visualizes Walmart’s historical weekly sales data across 45 stores and multiple departments in the USA using Python and Tableau Public. It aims to identify sales trends, regional/store performance, holiday impacts, and top-performing departments.
 
 ---
 
-## 🔍 Business Questions
+##  Business Questions
 
-- 📆 What months or seasons generate the most sales?
-- 🏪 Which store types perform best?
-- 📦 What are the top-performing departments?
-- 🎉 Do holiday weeks drive more revenue?
-- 📊 Can we present these findings through an interactive dashboard?
+-  What months or seasons generate the most sales?
+-  Which store types perform best?
+-  What are the top-performing departments?
+-  Do holiday weeks drive more revenue?
+-  Can we present these findings through an interactive dashboard?
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - Source: [Kaggle – Walmart Store Sales Forecasting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data)
 - Files used:
@@ -22,7 +22,7 @@ This project explores and visualizes Walmart’s historical weekly sales data ac
 
 ---
 
-## 🧼 Data Cleaning (Excel)
+##  Data Cleaning (Excel)
 
 Performed in Excel before analysis:
 - Joined all datasets using `Store` and `Date` keys
@@ -32,7 +32,7 @@ Performed in Excel before analysis:
 
 ---
 
-## 🐍 Python Analysis (Jupyter Notebook)
+##  Python Analysis (Jupyter Notebook)
 
 Performed group-based analysis and visualizations using:
 
@@ -50,27 +50,27 @@ Performed group-based analysis and visualizations using:
 
 Built a professional dashboard showing:
 
-- Monthly revenue trends 📈
-- Top departments 📦
-- Store type performance 🏪
-- Holiday vs. non-holiday impact 🎉
+- Monthly revenue trends 
+- Top departments 
+- Store type performance 
+- Holiday vs. non-holiday impact 
 
-**🔗 View Live Dashboard**:  
+** View Live Dashboard**:  
 [https://public.tableau.com/views/walmart_dashboard/Dashboard1](https://public.tableau.com/views/walmart_dashboard/Dashboard1)
 
 ---
 
 ## 📈 Key Findings
 
-- 🏆 July had the highest sales across all stores
-- 📉 January had the weakest performance
-- 🎯 Store Type A generated the highest total revenue
-- 🧪 Holiday weeks averaged **7% more sales** than regular weeks
-- 🧱 Top 10 departments drove the majority of revenue
+-  July had the highest sales across all stores
+-  January had the weakest performance
+-  Store Type A generated the highest total revenue
+-  Holiday weeks averaged **7% more sales** than regular weeks
+-  Top 10 departments drove the majority of revenue
 
 ---
 
-## 📢 Business Recommendations
+##  Business Recommendations
 
 - 📆 Focus campaigns around July, April, and December
 - 🛍️ Prioritize inventory for top departments
