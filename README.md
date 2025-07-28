@@ -22,7 +22,7 @@ This project explores and visualizes Walmart’s historical weekly sales data ac
 
 ---
 
-##  Data Cleaning (Excel)
+##  Data Cleaning and Merging
 
 Performed in Excel before analysis:
 - Merged all datasets using `Store` and `Date` keys
