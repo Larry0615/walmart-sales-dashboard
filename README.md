@@ -46,7 +46,7 @@ Performed group-based analysis and visualizations using:
 
 ---
 
-## 📊 Tableau Dashboard (Interactive)
+##  Tableau Dashboard (Interactive)
 
 Built a professional dashboard showing:
 
@@ -60,7 +60,7 @@ Built a professional dashboard showing:
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 -  July had the highest sales across all stores
 -  January had the weakest performance
@@ -72,13 +72,13 @@ Built a professional dashboard showing:
 
 ##  Business Recommendations
 
-- 📆 Focus campaigns around July, April, and December
-- 🛍️ Prioritize inventory for top departments
-- 🎯 Retarget customers during post-holiday periods
-- 🎉 Leverage holiday-specific marketing
+-  Focus campaigns around July, April, and December
+-  Prioritize inventory for top departments
+-  Retarget customers during post-holiday periods
+-  Leverage holiday-specific marketing
 
 ---
-## 📂 Repository Structure
+##  Repository Structure
 ```
 walmart-sales-dashboard/
 │
@@ -99,7 +99,7 @@ walmart-sales-dashboard/
 └── README.md
 ```
 ---
-## 🌐 Author
+##  Author
 
 **Oyenekan Larry**  
 📧 [LinkedIn](https://www.linkedin.com/in/oyenekan-olanrewaju-745651293)  
