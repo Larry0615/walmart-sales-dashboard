@@ -25,7 +25,7 @@ This project explores and visualizes Walmart’s historical weekly sales data ac
 ##  Data Cleaning (Excel)
 
 Performed in Excel before analysis:
-- Joined all datasets using `Store` and `Date` keys
+- Merged all datasets using `Store` and `Date` keys
 - Created new fields: `StoreDateKey`, `Type`, `Size`, `IsHoliday_feat`
 - Checked holiday column consistency
 - Created pivot tables for initial exploration
